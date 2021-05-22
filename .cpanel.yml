@@ -3,3 +3,10 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/theinflu/public_html/
     - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp blindScreen.php $DEPLOYMENTPATH
+    - /bin/cp evaluator.php $DEPLOYMENTPATH
+    - /bin/cp submit.php $DEPLOYMENTPATH
+    - /bin/cp -R css $DEPLOYMENTPATH
+    - /bin/cp -R fonts $DEPLOYMENTPATH
+    - /bin/cp -R images $DEPLOYMENTPATH
+    - /bin/cp -R js $DEPLOYMENTPATH
